@@ -362,6 +362,22 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.credits {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--accent-color);
+}
+
+.credits a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.credits a:hover {
+    color: var(--gradient-end);
+}
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
